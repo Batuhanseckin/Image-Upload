@@ -1,5 +1,10 @@
 # Image-Upload 
 
+Projenin amacı bilgisayarınızdaki veya internet üzerindeki resimleri siteye yüklemenize imkan verir.
+Proje henüz tam anlamıyla bitmemiştir.
+
+Projeyle ilgili bazı ekran görüntüleri :
+
 ![index](https://user-images.githubusercontent.com/32499207/54078532-b47e7180-42da-11e9-820a-79934925861c.png)
 ![kayit-ol](https://user-images.githubusercontent.com/32499207/54078540-d546c700-42da-11e9-8cba-b638ef7cdfe8.png)
 ![giris-yap](https://user-images.githubusercontent.com/32499207/54078535-c4965100-42da-11e9-9373-647fe7c1f000.png)
