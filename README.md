@@ -1,3 +1,5 @@
 # Image-Upload 
 
+NASIL ÇALIŞTIRIRIM:
+
 
