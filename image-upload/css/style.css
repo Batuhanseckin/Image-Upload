@@ -1,0 +1,858 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+    background-color: #fafafa !important;
+}
+html{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    display: inline;
+}
+.header{
+    background-color: #263238;
+    width: 100%;
+    height: 64px;
+}
+.header-orta{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 64px;
+    height: 64px;
+
+}
+.header-sol {
+    height: 64px;
+    width: 40%;
+    float: left;
+}
+.home{
+     float: left;
+     margin-left: 20px;
+     transition: background-color .3s;
+     padding:7px 10px 0px 10px;
+     height: 57px;
+}
+.home:hover{
+    background-color: 
+    rgba(0,0,0,0.1);
+}
+
+.home:nth-child(4){
+    height: 49px;
+    margin-left: 0px;
+    padding:15px 6px 0px 6px;
+}
+.home:nth-child(3){
+    margin-left: 0px;
+}
+.logo{
+    float: left; 
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    white-space: nowrap;
+
+}
+.home:nth-child(3) {
+    height: 51px;
+    margin-left: 0px;
+    padding: 12px 6px 0px 6px;
+}
+.arama{
+    background-color: #455a64 !important;
+    width: 100%;
+    height: 94px;
+    display: none;
+}
+.arama input[type="text"]{
+    width: 80%;
+    border: none;
+    font-size: 15.1px;
+    color: white;
+    border-bottom: 1px solid #9e9e9e;
+    padding: 14px 0px;
+    margin-left: 150px;
+    background-color: #455a64;
+}
+.arama ::placeholder { 
+    color:#ffffffa8;
+}
+.arama.active
+{
+    display: block !important;
+}
+.ara:focus-within .arama{
+    display: block;
+}
+.etiketler{
+    margin-left: 10%;
+    margin-top: 17px;
+}
+.etiketler a {
+    color: white;
+}
+.header-sag{
+    height: 64px;
+    margin-right: 13px;
+    float: right;
+}
+.header-sag > ul{
+    list-style: none;
+    margin-left: 250px;
+}
+.header-sag > ul > a > li{
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    transition: background-color .3s;
+    display: inline;
+} 
+.header-sag > ul > a{
+    /* transition: background-color .3s; */
+    color:white;
+    font-size: 15px;
+} 
+.header-sag > ul > a > li:hover{
+    background-color: 
+    rgba(0,0,0,0.1);
+} 
+
+.acilir-menu:hover{
+    background-color: rgba(0,0,0,0.1);
+    transition: background-color .3s;
+}
+.acilir-menu:focus-within ul{
+
+    display: block;
+}
+
+.fa-bars{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    line-height: 21px !important;
+}
+
+.acilir-menu {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.acilir-menu ul{
+    display: none;
+    left: 0px; 
+    z-index: 5;
+    list-style: none;
+    top: 0px;
+    float: right;
+    background-color: white;
+    width: 130px;
+    position: absolute;
+}
+.acilir-menu ul a li{
+    line-height: 3;
+}
+.acilir-menu ul a {
+    font-size: 16px;
+    transition: background-color .3s;
+    color: #26a69a;
+    display: block; 
+}
+.acilir-menu ul a li:hover{  
+    background-color: rgba(0,0,0,0.1);
+}
+.acilir-menu ul a li {
+    padding-left: 7px;
+}
+.yardim{
+    border-bottom: 1px solid #26a69a30;
+}
+section{
+    width: 77%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 15px 20px 25px 20px;
+    margin-top: 22px;
+    height: 250px;
+    background-color: white;
+}
+.upload{
+    height: 70px;
+}
+.upload h2{
+    text-align: center;
+    padding: 11px 0 13px 0px;
+    margin-top: 5px;
+    float: left;
+    width: 50%;
+    font-weight: normal;
+    letter-spacing: .8px;
+    font-size: 14px;
+    color: #455a64;
+    font-family: "Roboto", sans-serif;
+}
+.aktif{
+    border-bottom: 2px solid #455a64;
+    padding: 10px 0px;
+    color: #455a64;
+} 
+section input[type="file"]{
+    width: 100%;
+    height: 43px;
+    margin-top: 5px;
+    font-size: unset;
+    cursor: pointer;
+}
+section textarea {
+    width: 100%;
+    border:none;
+    font-size: large;
+    margin-top: 17px;
+    border-bottom:1px solid #9e9e9e;
+    box-sizing: content-box;
+} 
+section textarea:focus-within {
+    border-bottom: 1px solid green;
+}
+section button {
+    cursor: pointer;
+    background-color: #26a69a;
+    color: white;
+    font-weight: 600;
+    float: left;
+    height: 36px;
+    text-align: center;
+    margin-top: 13px;
+    border: none;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+section button:hover{
+
+    background-color: #2bbbad;
+}
+section i.fas.fa-ellipsis-v {
+    margin-top: 26px;
+    font-size: 21px;
+    margin-right: 0px;
+}
+section input[type="checkbox"] {
+    -webkit-transform: scale(2);
+    margin: 25px 0 0 20px;
+    background: #3d404e;
+    color: #8e4717;
+    border:none;
+    float: left;
+    cursor: pointer;
+}
+section span {
+    margin-left: 23.5px;
+    color: #9e9e9e;
+    margin-top: 20.5px;
+    float: left;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+.uc-nokta:focus-within .upload-ayarlar{
+    display: block;
+}
+.upload-ayarlar-yazi {
+    float: left;
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: auto;
+    font-size: 26px;
+}
+select{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+.carpi:focus-within .upload-ayarlar{
+    display: none;
+}
+.carpi {
+    float: right;
+    font-size: 22px;
+    margin-right: 16px;
+    margin-top: 15px;
+}
+.upload-boyut {
+    font-size: 13px;
+    margin-top: 8px;
+    padding: 5px 0 0px 0;
+    width: 55%;
+    margin-left: 23px;
+    border: 1px solid #00000045;
+    float: left;
+}
+
+.upload-gorunum {
+    width: 41%;
+    font-size: 13px;
+    padding: 5px 0 0px 0;
+    margin-left: 12px;
+    border: 1px solid #00000045;
+    margin-top: 8px;
+    float: left;
+}
+.boyut-gorunum {
+    width: 100%;
+    float: left;
+}
+.boyut-gorunum .yazi1{
+    width: 54%;
+}
+.boyut-gorunum .yazi2{
+    width: 42%;
+}
+.boyut-gorunum span {
+    color: black;
+    font-size: 15px;
+}
+.carpi a {
+    color: black;
+}
+.upload-ayarlar{
+    display: none;
+    position: absolute;
+    margin-top: -209px;
+    margin-left: -20px;
+    width: 79.7%;
+    height: 291px;
+    background-color: white;
+}
+.duyuru{
+    margin-top: 15px;
+    width: 77.2%;
+    font-size: 15px;
+    padding: 23px;
+    background-color: #546e7a !important;
+    color: #fff !important;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+.site-ozellikleri {
+    width: 80%;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kolay-ve-hizli {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.gelismis-paylasim {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.depolama {
+    width: 34%;
+    text-align: center;
+    float: left;
+}
+.depolama h5{
+    margin-top: 3px;
+    margin-bottom: 11px;
+}
+.kolay-ve-hizli h5{
+    margin: 0.82rem 0 0.656rem 0;
+}
+.gelismis-paylasim h5{
+    margin: 0.82rem 0 0.656rem 0;
+}
+.site-ozellikleri h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.site-ozellikleri span {
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 0;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(97, 95, 95, 0.87);
+}
+.icerik {
+    width: 81%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baslik {
+    text-align: center;
+    font-size: 1.58rem;
+    font-weight: 600;
+    margin: 1.46rem 0 1.3rem 0;
+    color: rgba(0,0,0,0.87);
+    font-family: "Roboto", sans-serif;
+}
+.fotograflar img {
+    width: 15%;
+    height: 185px;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 30px;
+}
+.fotograflar-son img{
+    width: 15%; 
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-right: 0%;
+    float: left;
+    margin-bottom: 30px;
+    height: 185px;
+}
+.fotograflar img:hover {   
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.fotograflar-son img:hover {    
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+.kayit-ol{
+margin-top:20px;
+background-color: white;
+height: 200px;
+margin-left: auto;
+width: 40%;
+margin-right: auto;
+}
+
+.kayit-ol h2 {
+    font-size: 24px;
+    line-height: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #2196F3 !important;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+
+.form-kayit-ol
+{
+    padding: 46px 7px 75px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.kayit-ol input[type="text"],.kayit-ol input[type="email"]{
+    width: 96%;
+    border: none;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #c6c5c5;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.kayit-ol input[type="text"]:focus-within,.kayit-ol input[type="email"]:focus-within{
+    border-bottom: 1px solid green;
+    outline: none;
+}
+.kayit-ol input[type="password"]{
+    width: 96%;
+    border: none;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #c6c5c5;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.kayit-ol input[type="password"]:focus-within{
+    border-bottom: 1px solid green;
+    outline: none;
+}
+
+.kayit-ol input[type="submit"] {
+    cursor: pointer;
+    background-color: #26a69a;
+    color: white;
+    font-weight: 600;
+    height: 36px;
+    margin-left: 13px;
+    float: left;
+    border: none;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.kayit-ol input[type="submit"]:hover{
+    background-color: #2bbbad;
+}
+
+.kayit-ol ::placeholder { 
+    color:#0000006b;
+}
+.sifre-hata{
+    color: white;
+    margin: 11px 0 20px 11px;
+    padding: 30px 0px;
+    width: 96%;
+    background-color: #D32F2F !important;
+}
+
+.sifre-hata span{
+    margin-left: 15px;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.giris-yap{
+margin-top:20px;
+background-color: white;
+height: 200px;
+margin-left: auto;
+width: 40%;
+margin-right: auto;
+}
+
+.form-giris-yap
+{
+    padding: 46px 7px;
+    background: #fff;
+    min-height: 208px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.giris-yap h2 {
+    font-size: 24px;
+    line-height: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #2196F3 !important;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+
+.giris-yap input[type="email"]{
+    width: 96%;
+    border: none;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #c6c5c5;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.giris-yap input[type="password"]{
+    width: 96%;
+    border: none;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #c6c5c5;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.giris-yap input[type="submit"] {
+    cursor: pointer;
+    background-color: #26a69a;
+    color: white;
+    font-weight: 600;
+    margin-top: -19px;
+    height: 36px;
+    margin-left: 13px;
+    float: left;
+    border: none;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.giris-yap input[type="submit"]:hover{
+    background-color: #2bbbad;
+}
+
+
+.giris-yap input[type="password"]:focus-within{
+    border-bottom: 1px solid green;
+    outline: none;
+}
+.giris-yap input[type="email"]:focus-within {
+    border-bottom: 1px solid green;
+    outline: none;
+}
+
+.sifre-sifirla {
+    float: left;
+    margin-left: 208px;
+    line-height: 4px;
+    font-size: 14px;
+}
+.sifre-sifirla a {
+    color: #343434;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.sifre-sifirla2{
+margin-top:20px;
+background-color: white;
+height: 200px;
+margin-left: auto;
+width: 40%;
+margin-right: auto;
+}
+
+.form-sifre-sifirla
+{
+    padding: 46px 7px;
+    background: #fff;
+    height: 130px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.sifre-sifirla2 h2 {
+    font-size: 24px;
+    line-height: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #2196F3 !important;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+
+.sifre-sifirla2 input[type="text"]{
+    width: 96%;
+    border: none;
+    margin-left: 14px;
+    font-size: 17px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #c6c5c5;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 11px;
+} 
+.sifre-sifirla2 input[type="submit"] {
+    cursor: pointer;
+    background-color: #26a69a;
+    color: white;
+    font-weight: 600;
+    margin-top: -19px;
+    height: 36px;
+    margin-left: 13px;
+    float: left;
+    border: none;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.sifre-sifirla2 input[type="submit"]:hover{
+    background-color: #2bbbad;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.arsiv{
+    width: 81%;
+    margin-left: 10%;
+    height: 500px;
+    margin-top: 22px;
+}
+.tek{
+    float: left;
+    margin-bottom: 22px;
+    width: 15%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-right: 1.75%;
+}
+.tek-son{
+    width: 15%; 
+    margin-right: 0%;
+    float: left;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.tek:hover{
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tek-son:hover{
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+div.tek .foto img {
+    width: 100%;
+    height: 138px;
+    border-radius: 2px 2px 0 0;
+}
+
+div.tek-son .foto img {
+    width: 100%;
+    height: 138px;
+    border-radius: 2px 2px 0 0;
+}
+.foto-yazi {
+    width: 100%;
+    margin-top: -4px;
+    line-height: 4;
+    background-color: white;
+}
+.foto-yazi span {
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.87);
+}
+.genel {
+    margin-left: 10%;
+    width: 80%;
+    float: left;
+    margin-top: 23px;
+}
+.genel .sag {
+    width: 34.5%;
+    float: left;
+    height: 132px;
+}
+.genel .sol {
+    width: 65.5%;
+    float: left;
+    background: white;
+    margin-bottom: 150px;
+}
+.paylasim{
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.sol .resim img {
+    text-align: center;
+}
+.resim2{
+    background: white;
+    width: 100%;
+}
+.like {
+    color: #039be5;
+    font-size: 20px;
+    margin-left: auto;
+    border-radius: 0 0 2px 2px;
+    width: 100%;
+    background-color: #fafafa !important;
+    margin-right: auto;
+}
+.fa-ellipsis-v{
+    float: right;
+    color: gray !important;
+    margin-right: 15px;
+}
+.fa-exclamation-triangle{
+    float: right !important;
+    margin-right: 15px;
+}
+.like .fas {
+    padding: 25px 0;
+}
+
+.like .fa-thumbs-up {
+    margin-left: 15px;
+}
+.yorum {
+    width: 100%;
+    min-height: 111px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #fafafa !important;
+}
+.yorum .adi a {
+    color: #039be5 !important;
+}
+.yorum .nick a{
+    color:#808080a8 !important;
+}
+.yorum .pp {
+    background-color: #00b8d4;
+    width: 60px;
+    font-size: 1.64rem;
+    height: 60px;
+    line-height: 2.3;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.yorum .adi {
+    float: left;
+    padding-top: 17px;
+    /* width: 16%; */
+    margin-right: 5px;
+}
+.yorum .nick {
+    width: 30%;
+    float: left;
+    padding-top: 17px;
+}
+.yorum .yorum2 {
+    width: 86%;
+    float: left;
+    padding: 6px 0px 20px 0px;
+}
+.yorum-yap {
+    width: 96%;
+    padding: 30px 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 15px;
+    background: white;
+}
+.yorum-yap textarea {
+    width: 100%;
+    border: none;
+    font-size: large;
+    margin-top: 17px;
+    border-bottom: 1px solid #9e9e9e;
+    box-sizing: content-box;
+}
+.yorum-yap textarea:focus-within{
+    border:none;
+    border-bottom: 1px solid green;
+}
+.yorum-yap input[type="submit"]{
+    cursor: pointer;
+    background-color: #26a69a;
+    color: white;
+    font-weight: 600;
+    height: 36px;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.yorum-yap ::placeholder { 
+    color:#0000002e;
+    font-size:15px;
+}
