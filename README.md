@@ -1,6 +1,6 @@
 # Image-Upload 
 
-Projenin amacı bilgisayarınızdaki veya internet üzerindeki resimleri siteye yüklemenize imkan verir.
+Proje amacı bilgisayarınızdaki veya internet üzerindeki resimleri siteye yüklemenize imkan verir.
 Proje henüz tam anlamıyla bitmemiştir.Siteyi açabilmek için kodları derleyip çalıştırabilirsiniz.
 
 Projeyle ilgili bazı ekran görüntüleri :
